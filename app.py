@@ -56,3 +56,9 @@ print("City:", my_City.upper())
 print("City is in Upper Case:", my_City.upper().isupper())
 print("else", my_City.upper().islower())
 print("City Character Length:", len(my_City))
+
+names = ["Renyel Jay", "Ian Mark", "Edmon", "Neri"]
+print("The First Name is:",names[0])
+print("Second Name is:", names[1])
+print("Third Name is:", names[2])
+print("Last Name is:", names[3])
