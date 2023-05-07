@@ -43,15 +43,14 @@
 
 # print("Total Wage is:", wage)
 
-min_Wage = float(input("Enter Minimum Wage: "))
-month = 31
-dayOffs = float(input("Enter Number of Day Off: "))
+print("Computes the Daily and Weekly Grosspay")
 
+hourly_Rate = float(input("Enter rate per hour: "))
+work_Hours = int(input("Enter Working Hours: "))
+weekly = int(input("Enter Number of Days (Work per Week): "))
 
-deduction = dayOffs * min_Wage
-totalWage =  min_Wage * month 
+dailyWage = hourly_Rate * work_Hours
+weeklyWage = dailyWage * weekly
 
-salary = totalWage - deduction
-print("Total Monthly Wage:", totalWage)
-print("Deductions:", deduction)
-print("Salary:", salary)
+print("Daily Wage:", dailyWage)
+print("Wage per Week:", weeklyWage)
