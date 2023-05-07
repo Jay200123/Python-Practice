@@ -42,7 +42,6 @@ totalWage = dailyWage * days
 Deduction = dayOff * dailyWage
 
 Salary = totalWage - Deduction
-
 print('Minimum Wage:', dailyWage)
 print('TotalDays:', days)
 print('Numbers of DayOff:', dayOff)
