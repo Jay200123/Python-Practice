@@ -30,8 +30,8 @@ total4 = val3 / val4
 print("Total:", total4)
 
 print("Performs Raised to Power")
-x = int(input("Enter A Number: "))
-y = int(input("Enter A Second Number: "))
+x = int(input("Enter the Value of X: "))
+y = int(input("Enter the Value of Y: "))
 
 print(pow(x, y))
 
