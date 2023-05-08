@@ -1,6 +1,4 @@
 names = ['Renyel','Ian','Neri','Edmon']
-1
-print(names)
 
 print("1st Name:", names[0])
 print("2nd Name:", names[1])
@@ -18,3 +16,16 @@ print(names[1:3])
 #update the list content
 names[0] = "Renyel Jay"
 print(names[0])
+
+name2 = ["Jhofel",'Ashong','Arnel','Wayle']
+# name2.extend(names)
+
+name2.append("Kevin")
+name2.insert(3,"Iien")
+name2.remove("Jhofel")
+
+# name2.sort()
+# name2.reverse()
+
+print(name2)
+

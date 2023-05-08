@@ -53,4 +53,4 @@ dailyWage = hourly_Rate * work_Hours
 weeklyWage = dailyWage * weekly
 
 print("Daily Wage:", dailyWage)
-print("Wage per Week:", weeklyWage)
+print("Wage per Week:", round(weeklyWage))
