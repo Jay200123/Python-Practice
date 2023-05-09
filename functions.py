@@ -57,6 +57,17 @@ rectangle = AreaRectangle(input1, input2)
 print("Area of a Rectangle is :", rectangle)
 
 
+print("Calculating Area of a Triangle")
+base1 = int(input("Enter Value for Base: "))
+height2 = int(input("Enter Value for Height: "))
+
+def areaTriangle(base, height):
+    area = 1/2 * base * height
+    return area
+
+triangle = areaTriangle(base1, height2)
+print("Area for Triangle:", triangle)
+
 print("Calculating Area of a Circle")
 rad1 = float(input("Enter A Radius: "))
 
@@ -70,4 +81,3 @@ areaCircle = AreaCircle(rad1)
 print("Area of a Circle is:", round(areaCircle))
     
     
-
