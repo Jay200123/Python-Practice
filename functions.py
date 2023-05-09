@@ -8,6 +8,7 @@ def sayHello(name, age):
     
 sayHello(input1, input2)
 
+print("Computes Daily Wage")
 workRates = float(input("Enter working rates per hours: "))
 workHours = int(input("Enter Working Hours: "))
 
@@ -18,6 +19,7 @@ def dailyWage(rate, hours):
 wage = dailyWage(workRates, workHours)
 print("Daily Wage:", wage)
 
+print("Computes WeeklyWage")
 val1 = float(input("Enter Working Rates per hour: "))
 val2 = int(input("Enter Working Hours: "))
 val3 = int(input("Enter Number of Work Days per Week: "))
@@ -79,5 +81,30 @@ def AreaCircle(radius):
 
 areaCircle = AreaCircle(rad1)
 print("Area of a Circle is:", round(areaCircle))
+
+print("Using Pow in python")
+
+x_val = int(input("Enter A Number: "))
+y_val = int(input("Enter A Second Number: "))
+
+def Pythonpow(x, y):
+    
+    total = pow(x,y)
+    return total
+
+result = Pythonpow(x_val, y_val)
+print("Result:",round(result))
+
+print("SquareRoot in Python")
+num = int(input("Enter A Number: "))
+
+def SquareRoot(number):
+    
+    total = sqrt(number)
+    return total
+
+sqrt_res = SquareRoot(num)
+print("The Square Root of the Number is:", round(sqrt_res))
+
     
     
