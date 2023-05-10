@@ -17,47 +17,43 @@
 # else:
 #     print("Invalid Operator")
     
-print("Advance Calculator Using Functions")
-val1 = float(input("Enter a Number: "))
-val2 = float(input("Enter A Second Number: "))
-operator = input("Put an Operator: ")
+print("Advance Python Calculator")
 
-def add(value1, value2):
-    total = value1 + value2
+val1 = float(input("Put A Value: "))
+val2 = float(input("Put A Second Value: "))
+op = input("Enter an Operator: ")
+
+def add(num1, num2):
+    total = num1 + num2
     return total
 
-def minus(value1, value2):
-    total = value1 - value2
+def minus(num1, num2):
+    total = num1 - num2
     return total
 
-def multiplication(value1, value2):
-    total = value1 * value2
-    return total  
+def divide(num1, num2):
+    total = num1 / num2
+    return total
 
-def division(value1, value2):
-    total = value1 / value2
-    return total 
+def multiply(num1, num2):
+    total = num1 * num2
+    return total
 
-
-if operator == '+':
+if op == '+':
     addition = add(val1, val2)
-    print("Total",  addition)
-
-elif operator == '-':
+    print("result using addition:",addition)
+    
+elif op == '-':
     subtract = minus(val1, val2)
-    print("Total:", subtract)  
+    print("result using substraction:", subtract)
     
-elif operator == '*':
-    multiply = multiplication(val1, val2)
-    print("Total:", multiply)
-
-elif operator == '/':
-    divide = division(val1, val2)
-    print("Total:", divide)
-
-else:
-    print("Error Invalid Operator")
+elif op == '/':
+    division = divide(val1, val2)
+    print("result using division:", division) 
     
+elif op == '*':
+    multiplication = multiply(val1, val2)
+    print("result using multiplication:", multiplication)   
     
 
     
