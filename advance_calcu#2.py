@@ -2,7 +2,7 @@ print("Python Calculator")
 print("Operators: + addition, - minus, / division, * multiplication")
 operator = input("Select an Operator: ").lower()
 
-if operator == 'addition' or operator=='+':
+if operator == 'addition' or operator == '+':
     print("(+)Addition")
     num1 = float(input("Enter a Number: "))
     num2 = float(input("Enter a Second Number: "))
@@ -14,7 +14,7 @@ if operator == 'addition' or operator=='+':
     result = addition(num1, num2)
     print("Result:",result)
     
-elif operator == 'minus' or operator=='-':
+elif operator == 'minus' or operator == '-':
     print("(-)Subtraction")
     num1 = float(input("Enter A Number: "))
     num2 = float(input("Enter A Second Number: "))
@@ -26,7 +26,7 @@ elif operator == 'minus' or operator=='-':
     result = minus(num1, num2)
     print("Result:", result)
     
-elif operator == 'division' or operator=='/':
+elif operator == 'division' or operator == '/':
     print("(/)Division")
     val1 = float(input("Enter a Value: "))
     val2 = float(input("Enter a Second Value: "))
@@ -38,7 +38,7 @@ elif operator == 'division' or operator=='/':
     result = divide(val1, val2)
     print("Result:", result)
     
-elif operator=='multiplication' or operator=='*':
+elif operator == 'multiplication' or operator == '*':
     print("(*)Multiplication")
     val1 = float(input("Enter a Value: "))
     val2 = float(input("Enter a Second Value: "))
@@ -49,3 +49,6 @@ elif operator=='multiplication' or operator=='*':
     
     result = multiply(val1, val2)
     print("Result:", result)
+
+else:
+    print("Invalid Operator...")

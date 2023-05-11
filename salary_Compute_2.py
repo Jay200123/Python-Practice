@@ -1,5 +1,3 @@
-print("Computes a Salary")
-
 rates = float(input("Enter Rates per Work Hours: "))
 hours = float(input("Enter Work Hours: "))
 month = input("Enter A Month: ").lower()
