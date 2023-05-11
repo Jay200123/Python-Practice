@@ -20,6 +20,6 @@ while True:
     
     if val not in monthConversion:
         print("Invalid please Enter a valid value pair..")
+        break
     else:
         print(monthConversion.get(val))
-        break
